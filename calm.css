@@ -1,0 +1,64 @@
+body{
+    background: #2690d4;
+    color: black; 
+    margin-left: 2em;
+    margin-right: 2em;
+    font-size: 2em; 
+}
+h1{
+margin-top: 5%;
+margin-bottom: 5%;
+text-align: center;
+}
+
+
+#Form label {
+	display: block;
+}
+
+#Form input[type=text], #Form input[type=date] {
+	display: block;
+	margin-bottom: 10px;
+	width: 60%;
+	max-width: 300px;
+	border: 1px solid #D8BF91;
+    margin-bottom: 6px;
+    padding: 5px !important;
+	font-family: 'Asap', sans-serif;
+	font-size: 0.9em;
+}
+
+#Form textarea {
+	display: block;
+	margin-bottom: 10px;
+	width: 80%;
+	max-width: 500px;
+	border: 1px solid #D8BF91;
+    margin-bottom: 6px;
+    padding: 5px !important;
+	font-family: 'Asap', sans-serif;
+	font-size: 0.9em;
+}
+.button {
+    padding: 5px 12px;
+    background: #4e1216;
+    color: #ddd;
+    border-radius: 4px;
+    border: 1px solid #4B1115;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.button:hover {
+	color: #fff;
+    background: #7F5949;
+    border: 1px solid #4B1115;
+    text-decoration: none;
+}
+
+.button:active {
+
+    box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.6);
+    background: #4e1216;
+    border: 1px solid #4B1115;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>form</title>
+    <link rel = "stylesheet" href = "calm.css">
+    <script src="assignment.js" type="text/javascript" lang="javascript"></script>
+    
+</head>
+<body>
+    <header id = "showcase " class = "grid">
+        
+        
+        <h1>Project Details</h1>
+        <p>Please fill in the project details in the form below:</p>
+      
+
+    </header>
+    
+    <main>
+            <section id="section-a" class="wrapper">
+                    <form id="Form" method = "POST"onsubmit="return check_info();">
+
+                   <!-- <fieldset class = "deco">-->
+                        
+                                     <label>Project Name:</label>
+                                    <input id = "Pro" type="text" name = 'ProjectName' size = "20" maxlength="10">
+                                    <label> Project Description:</label>
+                               <textarea name="description" id="message" class="store"></textarea>                                    
+                                   
+                               <label>Completion Date:</label>
+                                    <input id = "dat" type="date" name = 'Completion Date'>
+                                
+                                    <button id ="Sub" class = "button" title= 'submit form data' value = "Submit" onclick="localstorage()">Submit</button>
+                                  <!-- <input id = "Sub" type="submit"  class = "button" title= 'submit form data' value ='submit'> -->
+                                   
+                                  <button id ="Sub" class = "button" title= 'Clear data' onclick="ClearData()">Clear Form</button>
+                   <!--</fieldset>--> 
+                    </form>
+            </section>
+
+    </main>
+
+        
+<div id = "table" >
+    <table id = "ProjeD" >
+
+        <tr id = "titleRow">
+                <th>Project Name</th>
+                <th>Project Description</th>
+                <th>Completion Date</th>
+        </tr>
+    </table>
+</div>
+
+</body>
+
+</html>
